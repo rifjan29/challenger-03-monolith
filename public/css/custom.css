@@ -1,0 +1,20 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Helvetica, sans-serif;
+}
+:root{
+    --bg-primary: #0D28A6;;
+}
+
+/* button */
+.btn-primary{
+    background-color: var(--bg-primary);
+    border: var(--bg-primary);
+}
+
+.content-login{
+    /* width: fit-content; */
+    height: 50%;
+}
